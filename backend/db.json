@@ -4,16 +4,6 @@
       "id": 1,
       "name": "Caneta Bic",
       "price": 5
-    },
-    {
-      "name": "produto new",
-      "price": 250,
-      "id": 2
-    },
-    {
-      "name": "",
-      "price": 0,
-      "id": 3
     }
   ]
 }
