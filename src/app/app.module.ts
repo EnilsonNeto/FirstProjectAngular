@@ -23,6 +23,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule }from '@angular/material/button';
 
 import { BlueDirective } from './directives/blue.directive';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { BlueDirective } from './directives/blue.directive';
     ProductCrudComponent,
     ProductCreateComponent,
     BlueDirective,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
