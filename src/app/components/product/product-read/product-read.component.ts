@@ -1,4 +1,4 @@
-import { ProductService } from './../product.service';
+import { ProductService } from '../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
 
@@ -9,7 +9,8 @@ import { Product } from '../product.model';
 })
 export class ProductReadComponent implements OnInit {
  
-  products: Product[] | undefined 
+  products!: Product[];
+  displayedColumns = ['id', 'name', 'price']
  
   constructor (private productService: ProductService) { }
 

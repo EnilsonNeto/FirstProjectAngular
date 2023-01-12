@@ -4,6 +4,16 @@
       "id": 1,
       "name": "Caneta Bic",
       "price": 5
+    },
+    {
+      "name": "Iphone 8 plus",
+      "price": "1750",
+      "id": 2
+    },
+    {
+      "name": "iphone xs max",
+      "price": "2000",
+      "id": 3
     }
   ]
 }
