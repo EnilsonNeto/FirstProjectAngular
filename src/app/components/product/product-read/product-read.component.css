@@ -5,3 +5,14 @@ td{
 table {
     width: 100%;
 }
+
+.edit {
+    margin-right: 10px;
+}
+
+.edit > i {
+    color: #4b4b4b;
+}
+.delete > i{
+    color: #ce1818;
+}
